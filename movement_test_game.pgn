@@ -1,0 +1,12 @@
+[Event "N10 physical movement test"]
+[Site "Physical board"]
+[Date "2026.10.28"]
+[Round "1"]
+[White "N10 timing-hybrid-aggressive"]
+[Black "Human"]
+[Result "1-0"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 Qb6
+7. c4 Qxb2 8. Qb3 Qxa1 9. O-O Bxb1 10. Qxb7 Nd7 11. Qxa8+ Ke7
+12. cxd5 exd5 13. Qxd5 Qb2 14. Bc4 Bg6 15. dxc5 Ke8 16. Rd1 Bf5
+17. Qxf7+ Kd8 18. Qxf5 Kc7 19. Rxd7+ Kb8 20. Qxf8# 1-0

@@ -1,0 +1,14 @@
+{
+  "arm_enabled": true,
+  "capture_mode": "arm",
+  "human_color": "black",
+  "search_seconds": 30.0,
+  "minimum_depth": 4,
+  "maximum_depth": 8,
+  "use_opening_book": true,
+  "tactical_guard_enabled": false,
+  "tactical_guard_depth": 16,
+  "tactical_guard_override_cp": 100.0,
+  "stockfish_path": "assets/stockfish/stockfish-windows-x86-64-avx2.exe",
+  "confirm_each_engine_move": false
+}

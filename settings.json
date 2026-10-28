@@ -1,0 +1,170 @@
+{
+  "robot_ip": "192.168.4.1",
+  "network": {
+    "connect_timeout_seconds": 2.0,
+    "read_timeout_seconds": 10.0,
+    "retry_seconds": 1.0,
+    "report_every_attempts": 5,
+    "retry_forever": true
+  },
+  "motion": {
+    "travel_speed": 0.6,
+    "high_transit_speed": 0.8,
+    "high_transit_tolerance_mm": 20.0,
+    "move_wait_seconds": 0.0,
+    "init_wait_seconds": 0.0,
+    "init_grip_restore_delay_seconds": 0.0,
+    "init_clearance_z_mm": 80.0,
+    "carrying_clearance_z_mm": 100.0,
+    "init_feedback_poll_seconds": 0.04,
+    "init_feedback_timeout_seconds": 3.0,
+    "init_ready_z_mm": 150.0,
+    "init_stable_mm": 0.8,
+    "init_stable_samples": 2,
+    "init_motion_threshold_mm": 2.0,
+    "init_reference_tolerance_mm": 15.0,
+    "vertical_step_mm": 20.0,
+    "vertical_step_delay_seconds": 0.07,
+    "vertical_settle_seconds": 0.0,
+    "feedback_poll_seconds": 0.12,
+    "feedback_timeout_seconds": 4.0,
+    "feedback_min_stable_seconds": 0.3,
+    "feedback_stable_mm": 0.8,
+    "feedback_stable_samples": 3,
+    "vertical_target_retries": 4,
+    "precision_retry_limit": 4,
+    "vertical_retry_pause_seconds": 0.1,
+    "vertical_xy_correction_limit_mm": 5.0,
+    "vertical_z_correction_limit_mm": 20.0,
+    "lift_mm": 100.0,
+    "pickup_test_lift_mm": 40.0,
+    "high_tolerance_mm": 4.0,
+    "pickup_high_tolerance_mm": 3.5,
+    "pickup_low_tolerance_mm": 3.0,
+    "low_tolerance_mm": 10.0,
+    "maximum_high_corrections": 3,
+    "maximum_correction_mm": 5.0,
+    "correction_gain": 1.0
+  },
+  "gripper": {
+    "open_angle": 2.8,
+    "closed_angles": {
+      "pawn": 3.0,
+      "knight": 3.0,
+      "bishop": 3.0,
+      "rook": 3.0,
+      "queen": 3.0,
+      "king": 3.0
+    },
+    "release_open_angles": {
+      "rook": 2.65
+    },
+    "pickup_open_angles": {
+      "pawn": 2.75,
+      "knight": 2.72,
+      "bishop": 2.72,
+      "rook": 2.68,
+      "queen": 2.62,
+      "king": 2.62
+    },
+    "carry_torque": 420,
+    "hover_actuation_torque": 260,
+    "swivel_torque": 70,
+    "transport_close_extra_rad": 0.06,
+    "transport_max_angle_rad": 3.1,
+    "transport_grip_wait_seconds": 0.12,
+    "pickup_torque": 140,
+    "settle_torque": 90,
+    "torque_wait_seconds": 0.08,
+    "command_speed": 300,
+    "command_acceleration": 10,
+    "command_wait_seconds": 0.4,
+    "pickup_close_steps": 4,
+    "pickup_step_delay_seconds": 0.05,
+    "pickup_settle_seconds": 0.08,
+    "floating_carry_enabled": false,
+    "floating_carry_torque": 130,
+    "floating_carry_release_fraction": 0.15,
+    "floating_carry_steps": 2,
+    "floating_carry_step_delay_seconds": 0.06,
+    "floating_carry_dwell_seconds": 0.15,
+    "release_speed": 80,
+    "release_acceleration": 5,
+    "release_steps": 4,
+    "release_step_delay_seconds": 0.06,
+    "rook_release_final_wait_seconds": 0.18,
+    "capture_tray_open_angle": 2.65,
+    "capture_tray_tolerance_mm": 35.0,
+    "capture_tray_travel_speed": 0.8
+  },
+  "pieces": {
+    "heights_mm": {
+      "pawn": 39.0,
+      "knight": 49.5,
+      "bishop": 52.75,
+      "rook": 44.0,
+      "queen": 59.0,
+      "king": 64.0
+    },
+    "grip_below_top_mm": {
+      "pawn": 20.0,
+      "knight": 20.0,
+      "bishop": 20.0,
+      "rook": 20.0,
+      "queen": 20.0,
+      "king": 20.0
+    }
+  },
+  "placement": {
+    "drop_z_adjust_mm": 0.0,
+    "hover_height_mm": 18.0,
+    "far_rank_tilt_clearance_mm": 35.2,
+    "tilt_clearance_curve_exponent": 2.0,
+    "far_reach_drop_extra_mm": 7.0,
+    "hover_z_tolerance_mm": 5.0,
+    "hover_upward_corrections": 1,
+    "hover_max_total_correction_mm": 20.0,
+    "hover_release_fraction": 0.5,
+    "hover_target_angle": 2.99,
+    "hover_release_steps": 4,
+    "hover_release_dwell_seconds": 0.3,
+    "hover_angle_tolerance_rad": 0.04,
+    "hover_angle_reissue_attempts": 2,
+    "post_soften_lift_mm": 8.0,
+    "post_soften_lift_dwell_seconds": 0.15,
+    "final_lower_step_mm": 3.0,
+    "drop_release_height_mm": 8.0,
+    "release_z_tolerance_mm": 2.0,
+    "release_upward_corrections": 2,
+    "release_max_total_correction_mm": 20.0,
+    "pre_drop_dwell_seconds": 0.0,
+    "settle_wiggle_mm": 0.0,
+    "settle_wiggle_cycles": 1,
+    "post_release_dwell_seconds": 0.0,
+    "slow_clearance_lift_mm": 25.0,
+    "confirm_low_moves": true
+  },
+  "gripper_alignment": {
+    "radial_mm": 11.862,
+    "sideways_mm": 6.916,
+    "pickup_radial_extra_mm": 0.0,
+    "pickup_sideways_extra_mm": 8.7,
+    "pickup_radial_extra_by_piece_rank_mm": {
+      "rook": {
+        "1": -3.0
+      }
+    },
+    "placement_sideways_near_extra_mm": 0.8,
+    "placement_sideways_far_extra_mm": 3.0
+  },
+  "calibration": {
+    "x_base_mm": 0.0,
+    "x_slope": 0.0,
+    "x_reference_mm": 150.0,
+    "y_offset_mm": 0.0
+  },
+  "debug": {
+    "show_raw_commands": false,
+    "correct_high_positions": true
+  }
+}

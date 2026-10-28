@@ -1,0 +1,31 @@
+{
+  "global": {
+    "file_mm": 0.0,
+    "rank_mm": 0.0,
+    "z_mm": 0.0
+  },
+  "destination_reach_profile": {
+    "enabled": true,
+    "max_abs_file_squares": 1.0,
+    "samples": [
+      {
+        "square": "d2",
+        "correction_file_squares": 0.0
+      },
+      {
+        "square": "d4",
+        "correction_file_squares": -0.05
+      },
+      {
+        "square": "a7",
+        "correction_file_squares": -0.4
+      },
+      {
+        "square": "a8",
+        "correction_file_squares": -0.375
+      }
+    ]
+  },
+  "squares": {},
+  "piece_square": {}
+}
